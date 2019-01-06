@@ -7,6 +7,31 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Huong dan setup
+
+1. git clone https://github.com/haiaosa/laradock.git
+2. git clone https://github.com/haiaosa/truyen1vs3.git
+3. chay lenh
+	docker-compose up -d nginx mysql
+trong thu muc laradock
+
+4. chay lenh
+	composer install		( ngoai win7 cho nhanh)
+
+5. chay lenh
+	docker-compose exec mysql bash   	( Docker Quickstart Terminal - window 1)
+	mysql -uroot -proot;
+	create database truyen1vs3;
+
+6. chay lenh
+	docker-compose exec --user=laradock workspace bash   	( Docker Quickstart Terminal -window 2 )
+trong thu muc laradock
+
+7. chay lenh
+	php artisan migrate
+trong Workspace container		( Docker Quickstart Terminal - window2 )
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
