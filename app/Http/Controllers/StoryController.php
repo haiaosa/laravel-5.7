@@ -14,7 +14,7 @@ class StoryController extends Controller
      */
     public function index(Story $story)
     {
-        dd($story->all());
+
         $data = $story? $story->all() : null;
 
         return view('main/index', compact('data'));
