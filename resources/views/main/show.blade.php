@@ -7,10 +7,10 @@
       	<div class="hero-body">
 	        <div class="container">
 	          	<h1 class="title">
-	          		{!! $story->title !!}
+	          		{!! $show->title !!}
 	          	</h1>
 	          	<h2 class="subtitle">
-	          		{!! $story->content !!}
+	          		{!! $show->content !!}
 	          	</h2>
 	        </div>
       	</div>

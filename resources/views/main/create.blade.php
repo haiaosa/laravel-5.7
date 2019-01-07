@@ -6,7 +6,7 @@
         <div class="container">
             <h1 class="title">This is create page.</h1>
 
-            {!! Form::open(['url' => 'home', 'method' => 'post']) !!}
+            {!! Form::open(['url' => 'stories', 'method' => 'post']) !!}
 
 
 			
@@ -32,7 +32,9 @@
 	        		{!! Form::submit('Submit', ['class' => 'button is-primary'] ); !!}
 	        	</div>
 	          	<div class="control">
-	          		{!! Form::button('Cancel', ['class' => 'button is-link', 'href' => '/home'] ); !!}
+	          		<a class="button is-light" href="/stories">
+				      	Cancel
+				    </a>
 	          	</div>
 	        </div>
 
