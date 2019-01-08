@@ -15,7 +15,7 @@ class StoryController extends Controller
     public function index(Story $story)
     {
 
-        $data = $story? $story->all() : null;
+        $data = $story? $story->latest()->get() : null;
 
         return view('main/index', compact('data'));
     }
@@ -40,7 +40,7 @@ class StoryController extends Controller
     {
         Story::create([
             'title' => request('title'),
-            'content' => request('textarea')
+            'content' => request('content')
         ]);
 
         return redirect('stories');
@@ -52,11 +52,10 @@ class StoryController extends Controller
      * @param  \App\Story  $story
      * @return \Illuminate\Http\Response
      */
-    public function show($story)
+    public function show(Story $story)
     {
-        $show = Story::findOrFail($story);
 
-        return view('main/show', compact('show'));
+        return view('main/show', compact('story'));
     }
 
     /**
@@ -67,7 +66,7 @@ class StoryController extends Controller
      */
     public function edit(Story $story)
     {
-        //
+        return view('main/edit', compact('story'));
     }
 
     /**
@@ -79,7 +78,14 @@ class StoryController extends Controller
      */
     public function update(Request $request, Story $story)
     {
-        //
+        $this->validate($request, [
+            'title' =>  'required',
+            'content' => 'required|min:5'
+        ]);
+
+        $story->update($request->all());
+
+        return redirect("stories/{$story->id}");
     }
 
     /**
@@ -90,6 +96,8 @@ class StoryController extends Controller
      */
     public function destroy(Story $story)
     {
-        //
+        $story->delete();
+
+        return redirect('stories');
     }
 }

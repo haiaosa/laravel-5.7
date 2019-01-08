@@ -7,6 +7,14 @@
       	<div class="hero-body">
 	        <div class="container">
 	        	@foreach ($data as $story)
+
+        		{!! Form::open(['url' => ['stories', $story->id], 'method' => 'delete']) !!}
+		        	<div class="control">
+				  		<button class="button is-danger">Delete</button>
+				  	</div>
+			  	{!! Form::close() !!}
+
+
 	          	<h1 class="title">
 	          		{!! $story->title!!}
 	          	</h1>
@@ -17,4 +25,5 @@
 	        </div>
       	</div>
     </section>
+
 @endcomponent

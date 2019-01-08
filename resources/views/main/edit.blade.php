@@ -4,14 +4,12 @@
     @endslot
 	<section class="section">
         <div class="container">
-            <h1 class="title">This is create page.</h1>
+            <h1 class="title">This is EDIT page.</h1>
 
-            {!! Form::open(['url' => 'stories', 'method' => 'post']) !!}
+			{!! Form::model($story, ['method' => 'patch', 'url' => ['stories', $story->id]]) !!}
 
-            @include('/main/partials/form', [
-
-            	'bnText'	=>	'Create'
-
+            @include('main/partials/form', [
+            	'bnText'	=>	'Edit'
             	])
 
 	        {!! Form::close() !!}
