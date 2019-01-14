@@ -3,6 +3,26 @@ Route::get('/', function() {
 	return view('welcome');
 });
 
+// bulma template
+
+Route::get('/bulma', function() {
+	return view('bulma.master');
+});
+
+Route::get('/bulma/base', function() {
+	return view('bulma.posts.base');
+});
+
+Route::get('/bulma/blog', function() {
+	return view('bulma.posts.blog');
+});
+
+Route::get('/bulma/launch', function() {
+	return view('bulma.posts.launch');
+});
+
+// -------------------------
+
 Route::get('/stories','StoryController@index');
 
 Route::get('/stories/create','StoryController@create');
