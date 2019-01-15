@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Story;
+use App\Http\Requests\Posts;
 use Illuminate\Http\Request;
 
 class StoryController extends Controller
@@ -27,6 +28,7 @@ class StoryController extends Controller
      */
     public function create()
     {
+
         return view('/main/create');
     }
 
@@ -36,12 +38,11 @@ class StoryController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store()
+    public function store(Posts $request)
     {
-        Story::create([
-            'title' => request('title'),
-            'content' => request('content')
-        ]);
+        $validated = $request->validated();
+
+        Story::create($validated);
 
         return redirect('stories');
     }
@@ -76,14 +77,11 @@ class StoryController extends Controller
      * @param  \App\Story  $story
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Story $story)
+    public function update(Posts $request, Story $story)
     {
-        $this->validate($request, [
-            'title' =>  'required',
-            'content' => 'required|min:5'
-        ]);
+        $validated = $request->validated();
 
-        $story->update($request->all());
+        $story->update($validated);
 
         return redirect("stories/{$story->id}");
     }

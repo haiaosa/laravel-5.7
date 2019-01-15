@@ -21,6 +21,10 @@ Route::get('/bulma/launch', function() {
 	return view('bulma.posts.launch');
 });
 
+Route::get('/bulma/test', function() {
+	return view('bulma.test');
+});
+
 // -------------------------
 
 Route::get('/stories','StoryController@index');
