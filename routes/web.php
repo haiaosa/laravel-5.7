@@ -42,3 +42,7 @@ Route::patch('/stories/{story}','StoryController@update');
 Route::delete('/stories/{story}','StoryController@destroy');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
