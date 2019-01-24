@@ -11,5 +11,12 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+mix.styles([
+	// 'resources/css/debug.css',
+	'resources/css/grid.css',
+	'resources/css/helpers.css',
+	'resources/css/normalize.css',
+	'resources/css/bulma.css',
+	], 'public/css/truyen1vs3.css');
+
+mix.browserSync('truyen1vs3.test');
