@@ -19,4 +19,6 @@ mix.styles([
 	'resources/css/bulma.css',
 	], 'public/css/truyen1vs3.css');
 
+mix.styles('resources/css/debug.css', 'public/css/debug.css');
+
 mix.browserSync('truyen1vs3.test');

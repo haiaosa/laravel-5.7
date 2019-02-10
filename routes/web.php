@@ -46,3 +46,17 @@ Route::delete('/stories/{story}','StoryController@destroy');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+// --------------------- Front End Truyen
+
+Route::get ('/truyen', function () {
+
+	return view('truyen.trang-chu.trang-chu');
+
+});
+Route::get ('/lich-su', function () {
+
+	return view('truyen.lich-su.lich-su');
+
+});
