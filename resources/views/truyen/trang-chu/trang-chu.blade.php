@@ -4,7 +4,7 @@
 Truyen - 1vs3
 @endslot
 
-<div class="tile is-ancestor notification is-paddingless is-marginless">
+<div class="tile is-ancestor is-paddingless is-marginless">
 
   <div class="tile is-parent is-vertical is-9">
     @include('truyen.trang-chu.truyen-de-cu')

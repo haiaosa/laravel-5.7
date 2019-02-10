@@ -1,12 +1,12 @@
 @component('master')
 
 @slot('title')
-Truyen - 1vs3 - Lịch sử
+Truyen - 1vs3 - Theo dõi
 @endslot
 <div class="tile is-ancestor">
 	<div class="tile is-parent is-vertical">
 		<div class="tile is-child">
-			@include('truyen.dung-chung.breadcrumbs', ['linkHienTai' => 'http', 'nameLink' => 'Lịch sử'])
+			@include('truyen.dung-chung.breadcrumbs', ['linkHienTai' => 'http', 'nameLink' => 'Theo dõi'])
 		</div>
 		<div class="tile is-child">
 			<div class="media">
@@ -18,7 +18,7 @@ Truyen - 1vs3 - Lịch sử
 				<div class="media-content">
 					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
 					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã xem 2 ngày trước</p>
+					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
 				</div>
 			</div>
 			<div class="media">
@@ -30,7 +30,7 @@ Truyen - 1vs3 - Lịch sử
 				<div class="media-content">
 					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
 					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã xem 2 ngày trước</p>
+					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 3 ngày trước</p>
 				</div>
 			</div>
 			<div class="media">
@@ -42,7 +42,7 @@ Truyen - 1vs3 - Lịch sử
 				<div class="media-content">
 					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
 					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã xem 2 ngày trước</p>
+					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 3 ngày trước</p>
 				</div>
 			</div>
 			<div class="media">
@@ -54,7 +54,7 @@ Truyen - 1vs3 - Lịch sử
 				<div class="media-content">
 					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
 					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã xem 2 ngày trước</p>
+					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
 				</div>
 			</div>
 			<div class="media">
@@ -66,7 +66,7 @@ Truyen - 1vs3 - Lịch sử
 				<div class="media-content">
 					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
 					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã xem 2 ngày trước</p>
+					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
 				</div>
 			</div>
 			<div class="media">
@@ -78,7 +78,7 @@ Truyen - 1vs3 - Lịch sử
 				<div class="media-content">
 					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
 					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã xem 2 ngày trước</p>
+					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
 				</div>
 			</div>
 			<div class="media">
@@ -90,7 +90,7 @@ Truyen - 1vs3 - Lịch sử
 				<div class="media-content">
 					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
 					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã xem 2 ngày trước</p>
+					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
 				</div>
 			</div>
 			<div class="media">
@@ -102,7 +102,7 @@ Truyen - 1vs3 - Lịch sử
 				<div class="media-content">
 					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
 					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã xem 2 ngày trước</p>
+					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
 				</div>
 			</div>
 			<div class="media">
@@ -114,7 +114,7 @@ Truyen - 1vs3 - Lịch sử
 				<div class="media-content">
 					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
 					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã xem 2 ngày trước</p>
+					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
 				</div>
 			</div>
 

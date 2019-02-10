@@ -1,4 +1,4 @@
-<nav class="level">
+<nav class="level container">
 	<div class="level-item">
 		<div class="field has-addons">
 			<p class="control">

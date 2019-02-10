@@ -1,4 +1,4 @@
-<article class="tile is-child notification has-background-grey-dark has-text-danger">
+<article class="tile is-child notification  has-background-black has-text-danger">
 	<p class="title">Truyện mới cập nhật</p>
 	<div class="columns is-multiline">
 		<div class="column is-one-fifth is-half-tablet">

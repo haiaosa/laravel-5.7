@@ -60,3 +60,8 @@ Route::get ('/lich-su', function () {
 	return view('truyen.lich-su.lich-su');
 
 });
+Route::get ('/theo-doi', function () {
+
+	return view('truyen.theo-doi.theo-doi');
+
+});
