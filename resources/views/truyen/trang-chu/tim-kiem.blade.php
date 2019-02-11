@@ -28,9 +28,11 @@
 				</div>
 			</div>
 			<div class="media-right">
-				<span class="icon">
-					<i class="fas fa-angle-double-down"></i>
-				</span>
+				<a href="#">
+					<span class="icon">
+						<i class="fas fa-angle-double-down"></i>
+					</span>
+				</a>
 			</div>
 		</article>
 	</div>

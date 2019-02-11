@@ -50,6 +50,12 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 // --------------------- Front End Truyen
 
+
+Route::get ('/test', function () {
+
+	return view('truyen.trang-chu.test');
+
+});
 Route::get ('/truyen', function () {
 
 	return view('truyen.trang-chu.trang-chu');
@@ -63,5 +69,10 @@ Route::get ('/lich-su', function () {
 Route::get ('/theo-doi', function () {
 
 	return view('truyen.theo-doi.theo-doi');
+
+});
+Route::get ('/tuyen-nhan-su', function () {
+
+	return view('truyen.tuyen-nhan-su.tuyen-nhan-su');
 
 });

@@ -9,9 +9,9 @@
  {{-- <link rel="stylesheet" href="{{ asset('css/debug.css') }}"> --}}
 </head>
 <body class="has-navbar-fixed-bottom">
-    @include('truyen.trang-chu.menu-ngang')
+    @include('truyen.dung-chung.menu-ngang')
     {{-- @include('truyen.trang-chu.test') --}}
-    <section class="hero is-black is-fullheight is-fullheight-with-navbar">
+    <section class="hero has-background-black is-fullheight is-fullheight-with-navbar">
         <!-- Hero head: will stick at the top -->
         <div class="hero-head">
             @include('truyen.trang-chu.tim-kiem')

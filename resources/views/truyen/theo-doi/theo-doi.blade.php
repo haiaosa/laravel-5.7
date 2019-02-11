@@ -9,115 +9,150 @@ Truyen - 1vs3 - Theo dõi
 			@include('truyen.dung-chung.breadcrumbs', ['linkHienTai' => 'http', 'nameLink' => 'Theo dõi'])
 		</div>
 		<div class="tile is-child">
-			<div class="media">
-				<div class="media-left">
-					<figure class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="media-content">
-					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
-				</div>
-			</div>
-			<div class="media">
-				<div class="media-left">
-					<figure class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="media-content">
-					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 3 ngày trước</p>
-				</div>
-			</div>
-			<div class="media">
-				<div class="media-left">
-					<figure class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="media-content">
-					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 3 ngày trước</p>
-				</div>
-			</div>
-			<div class="media">
-				<div class="media-left">
-					<figure class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="media-content">
-					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
-				</div>
-			</div>
-			<div class="media">
-				<div class="media-left">
-					<figure class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="media-content">
-					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
-				</div>
-			</div>
-			<div class="media">
-				<div class="media-left">
-					<figure class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="media-content">
-					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
-				</div>
-			</div>
-			<div class="media">
-				<div class="media-left">
-					<figure class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="media-content">
-					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
-				</div>
-			</div>
-			<div class="media">
-				<div class="media-left">
-					<figure class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="media-content">
-					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
-				</div>
-			</div>
-			<div class="media">
-				<div class="media-left">
-					<figure class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="media-content">
-					<p class="title is-5 has-text-grey-lighter">Đm Lỗi Của Định Mệnh</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Tập 22</p>
-					<p class="subtitle is-6 has-text-grey-lighter">Đã theo dõi 2 ngày trước</p>
-				</div>
-			</div>
+			<div class="columns is-multiline is-centered">
 
+				<div class="column is-2">
+					<div class="card">
+						<header class="card-header">
+							<p class="card-header-title is-centered has-background-grey-dark">
+								<a href="#" class="has-text-white-ter has-text-weight-normal">
+									Naruto
+								</a>
+							</p>
+						</header>
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="content">
+								Cập nhật lúc: 
+								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+								<br>
+								Chương mới nhất : <a class="has-text-weight-semibold is-size-5">311</a>
+							</div>
+						</div>
+						<footer class="card-footer has-background-black">
+							<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tiếp</a>
+							<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Bỏ theo dõi</a>
+						</footer>
+					</div>
+				</div>
+				<div class="column is-2">
+					<div class="card">
+						<header class="card-header">
+							<p class="card-header-title is-centered has-background-grey-dark">
+								<a href="#" class="has-text-white-ter has-text-weight-normal">
+									Tạ Trang
+								</a>
+							</p>
+						</header>
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="content">
+								Cập nhật lúc: 
+								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+								<br>
+								Chương mới nhất : <a class="has-text-weight-semibold is-size-5">311</a>
+							</div>
+						</div>
+						<footer class="card-footer has-background-black">
+							<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tiếp</a>
+							<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Bỏ theo dõi</a>
+						</footer>
+					</div>
+				</div>
+				<div class="column is-2">
+					<div class="card">
+						<header class="card-header">
+							<p class="card-header-title is-centered has-background-grey-dark">
+								<a href="#" class="has-text-white-ter has-text-weight-normal">
+									Minh Phong
+								</a>
+							</p>
+						</header>
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="content">
+								Cập nhật lúc: 
+								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+								<br>
+								Chương mới nhất : <a class="has-text-weight-semibold is-size-5">311</a>
+							</div>
+						</div>
+						<footer class="card-footer has-background-black">
+							<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tiếp</a>
+							<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Bỏ theo dõi</a>
+						</footer>
+					</div>
+				</div>
+				<div class="column is-2">
+					<div class="card">
+						<header class="card-header">
+							<p class="card-header-title is-centered has-background-grey-dark">
+								<a href="#" class="has-text-white-ter has-text-weight-normal">
+									Lan My
+								</a>
+							</p>
+						</header>
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="content">
+								Cập nhật lúc: 
+								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+								<br>
+								Chương mới nhất : <a class="has-text-weight-semibold is-size-5">311</a>
+							</div>
+						</div>
+						<footer class="card-footer has-background-black">
+							<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tiếp</a>
+							<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Bỏ theo dõi</a>
+						</footer>
+					</div>
+				</div>
+				<div class="column is-2">
+					<div class="card">
+						<header class="card-header">
+							<p class="card-header-title is-centered has-background-grey-dark">
+								<a href="#" class="has-text-white-ter has-text-weight-normal">
+									Gì nữa nào
+								</a>
+							</p>
+						</header>
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="content">
+								Cập nhật lúc: 
+								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+								<br>
+								Chương mới nhất : <a class="has-text-weight-semibold is-size-5">311</a>
+							</div>
+						</div>
+						<footer class="card-footer has-background-black">
+							<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tiếp</a>
+							<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Bỏ theo dõi</a>
+						</footer>
+					</div>
+				</div>
+				
+			</div>
 		</div>
 	</div>
 </div>
