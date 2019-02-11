@@ -59,7 +59,7 @@ Truyen - 1vs3 - Tuyển nhân sự
 
 					<p>Mọi thắc mắc bạn có thể liên hệ trực tiếp với chúng tôi theo thông tin sau:<br/><span>Email:</span> <span>truyenqqcom</span><span>@gmail.com.</span></p>
 
-					<p><span>Fanpage: </span><a href="https://www.facebook.com/congdongthichdoctruyen/">https://www.facebook.com/congdongthichdoctruyen/</a></p>
+					<p><span>Fanpage: </span><a href="https://www.facebook.com/congdongthichdoctruyen/" class="has-text-warning">https://www.facebook.com/congdongthichdoctruyen/</a></p>
 
 				</div>
 			</div>

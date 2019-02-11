@@ -1,100 +1,174 @@
-<article class="tile is-child notification has-background-black has-text-danger">
-	<p class="title">Truyện đề cử</p>
-	<div class="columns">
-		<div class="column is-one-fifth is-half-tablet">
+<article class="tile is-child notification has-background-black has-text-warning">
+	<p class="title has-text-centered">Truyện - Đề cử</p>
+	<div class="columns is-multiline is-centered">
+		<div class="column is-one-fifth">
 			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
 				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=1" alt="">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-light">
-							Tập 14
-						</span>       
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item">
-						Naruto
-					</a>
+				<div class="card-content">
+					<div class="content">
+						Cập nhật lúc 11:09 PM
+						<br> 1 Jan 2016
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
 				</footer>
 			</div>
 		</div>
-		<div class="column is-one-fifth is-half-tablet">
+		<div class="column is-one-fifth">
 			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
 				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=2" alt="">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-light">
-							Tập 33
-						</span>       
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item">
-						Nanatsu Nami
-					</a>
-				</footer>
-			</div>
-		</div>  
-		<div class="column is-one-fifth is-half-tablet">
-			<div class="card">
-				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=3" alt="">
-					</figure>
-					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-light">
-							Tập 54
-						</span>       
+				<div class="card-content">
+					<div class="content">
+						Cập nhật lúc 11:09 PM
+						<br> 1 Jan 2016
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item">
-						Thế chiến 2
-					</a>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
 				</footer>
 			</div>
 		</div>
-		<div class="column is-one-fifth is-half-tablet">
+		<div class="column is-one-fifth">
 			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
 				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=4" alt="">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-light">
-							Tập 31
-						</span>       
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item">
-						Thất nghiệp đại tội
-					</a>
+				<div class="card-content">
+					<div class="content">
+						Cập nhật lúc 11:09 PM
+						<br> 1 Jan 2016
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
 				</footer>
 			</div>
 		</div>
-		<div class="column is-one-fifth is-half-tablet">
+		<div class="column is-one-fifth">
 			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
 				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=5" alt="">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-light">
-							Tập 91
-						</span>       
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item">
-						Cho tôi 1 ly cafe
-					</a>
+				<div class="card-content">
+					<div class="content">
+						Cập nhật lúc 11:09 PM
+						<br> 1 Jan 2016
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
 				</footer>
 			</div>
 		</div>
+		<div class="column is-one-fifth">
+			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
+				<div class="card-image">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					</figure>
+					<div class="card-content is-overlay is-clipped">
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
+					</div>
+				</div>
+				<div class="card-content">
+					<div class="content">
+						Cập nhật lúc 11:09 PM
+						<br> 1 Jan 2016
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
+				</footer>
+			</div>
+		</div>
+		<div class="column is-one-fifth">
+			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
+				<div class="card-image">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					</figure>
+					<div class="card-content is-overlay is-clipped">
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
+					</div>
+				</div>
+				<div class="card-content">
+					<div class="content">
+						Cập nhật lúc 11:09 PM
+						<br> 1 Jan 2016
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
+				</footer>
+			</div>
+		</div>
+
 	</div>
 </article>

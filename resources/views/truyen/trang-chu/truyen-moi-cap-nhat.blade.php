@@ -1,150 +1,223 @@
-<article class="tile is-child notification  has-background-black has-text-danger">
-	<p class="title">Truyện mới cập nhật</p>
-	<div class="columns is-multiline">
-		<div class="column is-one-fifth is-half-tablet">
+<article class="tile is-child notification  has-background-black has-text-warning">
+	<p class="title has-text-centered">Truyện - Mới cập nhật</p>
+	<div class="columns is-multiline is-centered">
+		<div class="column is-one-fifth">
 			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
 				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=1" alt="">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-info has-background-grey-light">
-							Photo Title That is really long
-						</span>       
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Tập 22
-					</a>
-				</footer>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Ngọc Vi Mai
-					</a>
+				<div class="card-content">
+					<div class="content is-centered">
+						<p class="has-text-info has-text-weight-bold is-size-6 has-text-centered">1 giờ trước</p>
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
 				</footer>
 			</div>
 		</div>
-		<div class="column is-one-fifth is-half-tablet">
+		<div class="column is-one-fifth">
 			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
 				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=2" alt="">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-info has-background-grey-light">
-							Photo Title
-						</span>       
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Tập 22
-					</a>
-				</footer>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Tình Nhân Khế Ước Của Tổng Tài
-					</a>
-				</footer>
-			</div>
-		</div>  
-		<div class="column is-one-fifth is-half-tablet">
-			<div class="card">
-				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=3" alt="">
-					</figure>
-					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-info has-background-grey-light">
-							Photo Title
-						</span>       
+				<div class="card-content">
+					<div class="content is-centered">
+						<p class="has-text-info has-text-weight-bold is-size-6 has-text-centered">1 giờ trước</p>
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Tập 22
-					</a>
-				</footer>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Hộ Hoa Cao Thủ Tại Đô Thị
-					</a>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
 				</footer>
 			</div>
 		</div>
-		<div class="column is-one-fifth is-half-tablet">
+		<div class="column is-one-fifth">
 			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
 				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=4" alt="">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-info has-background-grey-light">
-							Photo Title
-						</span>       
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Tập 22
-					</a>
-				</footer>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Truyền Võ
-					</a>
+				<div class="card-content">
+					<div class="content is-centered">
+						<p class="has-text-info has-text-weight-bold is-size-6 has-text-centered">1 giờ trước</p>
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
 				</footer>
 			</div>
 		</div>
-		<div class="column is-one-fifth is-half-tablet">
+		<div class="column is-one-fifth">
 			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
 				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=5" alt="">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-info has-background-grey-light">
-							Photo Title
-						</span>       
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Tập 22
-					</a>
-				</footer>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						999 Nụ Hôn Bá Đạo Của Nam Thần
-					</a>
+				<div class="card-content">
+					<div class="content is-centered">
+						<p class="has-text-info has-text-weight-bold is-size-6 has-text-centered">1 giờ trước</p>
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
 				</footer>
 			</div>
 		</div>
-		<div class="column is-one-fifth is-half-tablet">
+		<div class="column is-one-fifth">
 			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
 				<div class="card-image">
-					<figure class="image is-3by2">
-						<img src="https://unsplash.it/300/200/?random&pic=6" alt="">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
-						<span class="tag is-info has-background-grey-light">
-							8 giờ trước
-						</span>
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
 					</div>
 				</div>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Tập 22
-					</a>
-				</footer>
-				<footer class="card-footer">
-					<a class="card-footer-item has-background-grey-dark	has-text-white-ter">
-						Ám Chi Lạc Ấn
-					</a>
+				<div class="card-content">
+					<div class="content is-centered">
+						<p class="has-text-info has-text-weight-bold is-size-6 has-text-centered">1 giờ trước</p>
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
 				</footer>
 			</div>
 		</div>
+		<div class="column is-one-fifth">
+			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
+				<div class="card-image">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					</figure>
+					<div class="card-content is-overlay is-clipped">
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
+					</div>
+				</div>
+				<div class="card-content">
+					<div class="content is-centered">
+						<p class="has-text-info has-text-weight-bold is-size-6 has-text-centered">1 giờ trước</p>
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
+				</footer>
+			</div>
+		</div>
+		<div class="column is-one-fifth">
+			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
+				<div class="card-image">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					</figure>
+					<div class="card-content is-overlay is-clipped">
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
+					</div>
+				</div>
+				<div class="card-content">
+					<div class="content is-centered">
+						<p class="has-text-info has-text-weight-bold is-size-6 has-text-centered">1 giờ trước</p>
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
+				</footer>
+			</div>
+		</div>
+		<div class="column is-one-fifth">
+			<div class="card">
+				<header class="card-header">
+					<p class="card-header-title is-centered has-background-grey-dark">
+						<a class="has-text-white-ter has-text-weight-normal">
+							Naruto
+						</a>
+					</p>
+				</header>
+				<div class="card-image">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					</figure>
+					<div class="card-content is-overlay is-clipped">
+						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
+					</div>
+				</div>
+				<div class="card-content">
+					<div class="content is-centered">
+						<p class="has-text-info has-text-weight-bold is-size-6 has-text-centered">1 giờ trước</p>
+					</div>
+				</div>
+				<footer class="card-footer has-background-black">
+					<a href="#" class="card-footer-item button is-danger is-outlined is-radiusless is-uppercase has-text-weight-semibold">Đọc tập mới nhất</a>
+				</footer>
+			</div>
+		</div>
+
 
 	</div>
 </article>

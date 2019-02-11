@@ -28,7 +28,7 @@
 				</div>
 			</div>
 			<div class="media-right">
-				<a href="#">
+				<a href="#" class="has-text-warning">
 					<span class="icon">
 						<i class="fas fa-angle-double-down"></i>
 					</span>

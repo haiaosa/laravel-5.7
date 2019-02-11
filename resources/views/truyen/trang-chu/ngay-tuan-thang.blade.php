@@ -2,19 +2,19 @@
 	<div class="tabs is-fullwidth">
 		<ul>
 			<li>
-				<a class=" has-text-warning">
+				<a class="has-text-warning">
 					<span class="icon"><i class="fas fa-angle-left" aria-hidden="true"></i></span>
 					<span>Ngày</span>
 				</a>
 			</li>
 			<li>
-				<a class=" has-text-warning">
+				<a class="has-text-warning">
 					<span class="icon"><i class="fas fa-angle-up" aria-hidden="true"></i></span>
 					<span>Tuần</span>
 				</a>
 			</li>
 			<li>
-				<a class=" has-text-warning">
+				<a class="has-text-warning">
 					<span>Tháng</span>
 					<span class="icon"><i class="fas fa-angle-right" aria-hidden="true"></i></span>
 				</a>

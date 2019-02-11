@@ -9,6 +9,7 @@ Truyen - 1vs3
   <div class="tile is-parent is-vertical is-9">
     @include('truyen.trang-chu.truyen-de-cu')
     @include('truyen.trang-chu.truyen-moi-cap-nhat')
+    <div class="tile"></div>
   </div>
 
   <div class="tile is-parent is-vertical">

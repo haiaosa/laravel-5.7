@@ -1,7 +1,7 @@
 <nav class="breadcrumb is-centered is-medium" aria-label="breadcrumbs">
   <ul>
     <li>
-      <a href="truyen">
+      <a href="truyen" class="has-text-warning">
         <span class="icon is-small">
           <i class="fas fa-home" aria-hidden="true"></i>
         </span>
