@@ -1,4 +1,4 @@
-<article class="tile is-child notification has-background-black-bis">
+<article class="tile is-child is-vertical notification has-background-black-bis">
 	<div class="tabs is-fullwidth">
 		<ul>
 			<li>
@@ -21,10 +21,20 @@
 			</li>
 		</ul>
 	</div>
-	<p class="subtitle is-6 has-text-grey-lighter">Đảo Hải Tặc</p>
-	<p class="subtitle is-6 has-text-grey-lighter">Ryuuroden - Chú Bé Rồng</p>
-	<p class="subtitle is-6 has-text-grey-lighter">Dị Nhân Bất Tử</p>
-	<p class="subtitle is-6 has-text-grey-lighter">Onepunch Man</p>
-	<p class="subtitle is-6 has-text-grey-lighter">Sẽ Không Vấn Đề Gì</p>
-	<p class="subtitle is-6 has-text-grey-lighter">Thánh Gióng</p>
+	<div class="tile is-parent">
+		<div class="tile is-child">
+			<p class="subtitle is-6 has-text-grey-lighter"><a>Đảo Hải Tặc ăn cặc nhé Tạ Trang</a>
+		</div>
+		<div class="tile is-child has-text-right is-4">
+			<p><strong class="has-text-danger">512</strong> lượt xem</p>
+		</div>
+	</div>
+	<div class="tile is-parent">
+		<div class="tile is-child">
+			<p class="subtitle is-6 has-text-grey-lighter"><a>Đảo Hải Tặc</a>
+		</div>
+		<div class="tile is-child has-text-right is-4">
+			<p><strong class="has-text-danger">666</strong> lượt xem</p>
+		</div>
+	</div>
 </article>

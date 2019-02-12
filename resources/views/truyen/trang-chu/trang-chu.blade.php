@@ -1,7 +1,7 @@
 @component('master')
 
 @slot('title')
-Truyen - 1vs3
+Truyện - 1vs3
 @endslot
 
 <div class="tile is-ancestor is-paddingless is-marginless">

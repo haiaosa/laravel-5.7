@@ -1,5 +1,5 @@
 <article class="tile is-child notification has-background-black has-text-warning">
-	<p class="title has-text-centered">Truyện - Đề cử</p>
+	<p class="title has-text-centered"><a class=" button subtitle is-warning is-outlined">Truyện 1vs3 - Đề cử</a></p>
 	<div class="columns is-multiline is-centered">
 		<div class="column is-one-fifth">
 			<div class="card">

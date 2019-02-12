@@ -6,7 +6,7 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 	{{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"> --}}
 	<link rel="stylesheet" href="{{ asset('css/truyen1vs3.css') }}">
-	{{-- <link rel="stylesheet" href="{{ asset('css/debug.css') }}"> --}}
+	<link rel="stylesheet" href="{{ asset('css/debug.css') }}">
 </head>
 <body class="has-navbar-fixed-bottom">
 	@include('truyen.dung-chung.menu-ngang')
@@ -53,49 +53,6 @@
 
 		<!-- Hero content: will be in the middle -->
 		<div class="hero-body">
-			<div class="container has-text-centered">
-
-				<div class="columns">
-					<div class="column is-8 is-offset-2">
-						<nav class="breadcrumb" aria-label="breadcrumbs">
-							<ul>
-								<li>
-									<a href="#" class="has-text-warning">
-										<span class="icon is-small">
-											<i class="fas fa-home" aria-hidden="true"></i>
-										</span>
-										<span>Bulma</span>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="has-text-warning">
-										<span class="icon is-small">
-											<i class="fas fa-book" aria-hidden="true"></i>
-										</span>
-										<span>Documentation</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="icon is-small">
-											<i class="fas fa-puzzle-piece" aria-hidden="true"></i>
-										</span>
-										<span>Components</span>
-									</a>
-								</li>
-								<li class="is-active">
-									<a href="#">
-										<span class="icon is-small">
-											<i class="fas fa-thumbs-up" aria-hidden="true"></i>
-										</span>
-										<span>Breadcrumb</span>
-									</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
 		</div>
 
 		<!-- Hero footer: will stick at the bottom -->

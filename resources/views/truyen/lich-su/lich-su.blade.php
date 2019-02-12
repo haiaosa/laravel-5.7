@@ -1,7 +1,7 @@
 @component('master')
 
 @slot('title')
-Truyen - 1vs3 - Lịch sử
+Truyện - 1vs3 - Lịch sử
 @endslot
 <div class="tile is-ancestor">
 	<div class="tile is-parent is-vertical">

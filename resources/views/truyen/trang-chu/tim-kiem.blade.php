@@ -22,18 +22,48 @@
 			</figure>
 			<div class="media-content">
 				<div class="content">
-					<p>
-						Phong Nguyễn
-					</p>
+					<a class="button is-warning is-outlined">Phong Nguyễn</a>
 				</div>
 			</div>
-			<div class="media-right">
-				<a href="#" class="has-text-warning">
-					<span class="icon">
-						<i class="fas fa-angle-double-down"></i>
-					</span>
-				</a>
-			</div>
 		</article>
+		<div class="level-item">
+			<nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+
+					<div id="navbarBasicExample" class="navbar-menu">
+						<div class="navbar-start">
+
+							<div class="navbar-item has-dropdown is-hoverable">
+								<a class="navbar-link is-arrowless has-text-warning">
+									<span class="icon">
+										<i class="fas fa-angle-double-down"></i>
+									</span>
+								</a>
+
+								<div class="navbar-dropdown is-right has-background-warning">
+									<a class="navbar-item">
+										Thông tin cá nhân
+									</a>
+									<a class="navbar-item">
+										Đổi mật khẩu
+									</a>
+									<a class="navbar-item">
+										Sửa thông tin
+									</a>
+									<a class="navbar-item">
+										Truyện đã theo dõi
+									</a>
+									<hr class="navbar-divider">
+									<a class="navbar-item">
+										Thoát
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</nav>
+		</div>
 	</div>
+
+</div>
 </nav>
