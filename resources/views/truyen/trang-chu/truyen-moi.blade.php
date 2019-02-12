@@ -5,7 +5,7 @@
 			<div class="media">
 				<div class="media-left">
 					<a class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+						<img src="{{ asset('images/girl-sexy/5.png') }}" alt="Placeholder image">
 					</a>
 				</div>
 				<div class="media-content">
@@ -19,7 +19,7 @@
 			<div class="media">
 				<div class="media-left">
 					<a class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+						<img src="{{ asset('images/girl-sexy/3.png') }}" alt="Placeholder image">
 					</a>
 				</div>
 				<div class="media-content">
@@ -33,7 +33,7 @@
 			<div class="media">
 				<div class="media-left">
 					<a class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+						<img src="{{ asset('images/girl-sexy/4.png') }}" alt="Placeholder image">
 					</a>
 				</div>
 				<div class="media-content">
@@ -47,7 +47,7 @@
 			<div class="media">
 				<div class="media-left">
 					<a class="image is-96x96">
-						<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+						<img src="{{ asset('images/girl-sexy/2.png') }}" alt="Placeholder image">
 					</a>
 				</div>
 				<div class="media-content">

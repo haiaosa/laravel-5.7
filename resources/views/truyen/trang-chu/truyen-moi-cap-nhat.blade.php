@@ -11,8 +11,8 @@
 					</p>
 				</header>
 				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					<figure class="image">
+						<img src="{{ asset('images/girl-sexy/1.png') }}" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
 						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
@@ -38,8 +38,8 @@
 					</p>
 				</header>
 				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					<figure class="image">
+						<img src="{{ asset('images/girl-sexy/2.png') }}" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
 						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
@@ -65,8 +65,8 @@
 					</p>
 				</header>
 				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					<figure class="image">
+						<img src="{{ asset('images/girl-sexy/3.png') }}" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
 						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
@@ -92,8 +92,8 @@
 					</p>
 				</header>
 				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					<figure class="image">
+						<img src="{{ asset('images/girl-sexy/4.png') }}" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
 						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
@@ -119,8 +119,8 @@
 					</p>
 				</header>
 				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					<figure class="image">
+						<img src="{{ asset('images/girl-sexy/5.png') }}" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
 						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
@@ -146,8 +146,8 @@
 					</p>
 				</header>
 				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					<figure class="image">
+						<img src="{{ asset('images/girl-sexy/4.png') }}" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
 						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
@@ -173,8 +173,8 @@
 					</p>
 				</header>
 				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					<figure class="image">
+						<img src="{{ asset('images/girl-sexy/3.png') }}" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
 						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
@@ -200,8 +200,8 @@
 					</p>
 				</header>
 				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+					<figure class="image">
+						<img src="{{ asset('images/girl-sexy/2.png') }}" alt="Placeholder image">
 					</figure>
 					<div class="card-content is-overlay is-clipped">
 						<div class="button is-danger is-outlined has-text-weight-bold is-size-6">Tập 3 mới nhất</div>
