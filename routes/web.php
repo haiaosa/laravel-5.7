@@ -76,3 +76,14 @@ Route::get ('/tuyen-nhan-su', function () {
 	return view('truyen.tuyen-nhan-su.tuyen-nhan-su');
 
 });
+Route::get ('/trang-mo-ta', function () {
+
+	return view('truyen.trang-mo-ta.trang-mo-ta');
+
+});
+Route::get ('/trang-chi-tiet', function () {
+
+	return view('truyen.trang-mo-ta.trang-chi-tiet');
+
+});
+
