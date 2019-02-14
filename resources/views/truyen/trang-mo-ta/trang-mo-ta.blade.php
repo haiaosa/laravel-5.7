@@ -40,11 +40,6 @@ Truyện - 1vs3 - Trang mô tả
 
 				<div class="column">
 					<article class="media">
-						<figure class="media-left">
-							<p class="image is-96x96">
-								<img src="https://bulma.io/images/placeholders/1280x960.png">
-							</p>
-						</figure>
 						<div class="media-content">
 							<div class="content">
 								<p><strong>Naruto</strong></p>
@@ -67,9 +62,6 @@ Truyện - 1vs3 - Trang mô tả
 									</a>
 								</div>
 							</nav>
-						</div>
-						<div class="media-right">
-							<button class="delete"></button>
 						</div>
 					</article>
 				</div>
