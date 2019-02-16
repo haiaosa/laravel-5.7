@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Huong dan setup
+## Hướng dẫn setup
 
 1. git clone https://github.com/haiaosa/laradock.git
 2. git clone https://github.com/haiaosa/truyen1vs3.git
@@ -30,6 +30,46 @@ trong thu muc laradock
 7. chay lenh
 	php artisan migrate
 trong Workspace container		( Docker Quickstart Terminal - window2 )
+
+## Về project Truyện - 1vs3
+
+Project này thì về cơ bản ko có gì đặc biệt, tuy nhiên vì là project đầu tay nên t muốn :
+
+1. Phần code PHP phải đc tổ chức mạch lạc với 
+	- *Repository* ( sử dụng để connect DB - Eloquen hoặc Redis...)
+	- Controller thì tạo 1 *abtract class cho CRUD* tránh viết lại code
+	- Còn 1 đống thứ như : Push, Email, Event - Listener, Job đang muốn thử mà chưa kịp
+
+Ba thằng ở trên là đã giải quyết đc hầu hết vấn đề con Truyện - 1vs3 này rồi. 
+
+Thêm vấn đề nữa là đang ko biết thực tế nếu mình lưu truyện vào server thì lưu kiểu gì, nó là vấn đề của image, search sau.
+
+Một đống design pattern như: Repository......muốn áp dụng vào tối đa nè. Rồi OOP hiểu dc rồi, còn mấy hàm *get,set* đang muốn mò đến thì cũng chưa kịp.
+
+2. Phần Blade thì đang muốn tùy biến được Bulma 1 cách thoải mái, kèm theo đó là sử dụng SASS,SCSS, Vue luôn để cho nó full control mà chưa kịp.
+	- Mẹ nó mới biết đc thêm thg TailWind chưa kịp thử, hix.
+	- Một đống thứ cần phải lưu ý như : *flex, selector, color:inherit*
+
+3. Phần Eloquen DB, đợt này sẽ dùng DB custom, tức là tiếng việt ko dấu để mình thoải mái khi đọc code mà cũng ko kịp. Và tất cả các mọi thứ cũng viết tiếng việt ko dấu luôn cho nó thoải mái. Project riêng mà, sao phải xoắn.
+	- DM, đặc biệt cái phần *conversion* này, thực sự là rất khoai vì nó là sự khác biệt ngôn ngữ, làm loz j nó cũng thêm S hoặc ko có S đằng sau, để nhớ và thuần thục đc bọn này cũng mất kha khá thời gian, tuy nhiên t đã để ý đến nó và đang rất muốn xong xuôi mấy việc kia đi để quay lại tập chung giải quyết việc quan trọng này thì lại éo còn cơ hội, đời thật là vl ở chính cái chỗ này. Vài năm nữa đọc lại, lại éo biết quy ước này nó là chỗ nào đâu, khắm vãi.
+
+	- Nói gì thì nói, nếu mà đc làm cái project này hoàn thành theo đúng ý, thì mọi thứ nó cũng rõ ràng hơn, lúc đó tạm stop cũng éo bị quên nhiều, nhưng thời điểm này mà stop, thì bốc cmn cứt ăn vã rồi !
+
+## Về các tool đã biết và đang dùng cần lưu ý sau:
+
+1.  Máy bàn ở nhà đã cài sẵn Docker rồi nên cứ docker mà dùng ( nếu cài lại win thì dùng Laragon)
+	- Cách dùng thì *git clone https://github.com/haiaosa/laradock.git*
+	- Laradock này đã cấu hình 3 cái domain rồi: *truyen1vs3.conf, laravel-5.7.conf, refactoring-laravel-5.4.conf*  cần tạo mới thì zô nginx mà copy ,edit thôi.
+2. Ở ngoài hàng net thì dùng laragon luôn
+	- *git clone https://github.com/haiaosa/truyen1vs3.git* sau đó copy .env.hangnet
+		+ Bật server lên, tạo db tên: truyen1vs3
+		+ *composer install*
+		+ *npm install*
+		+ *php artisan migrate*
+		+ *php artisan db:seed*, riêng phần seed này cũng muốn sửa lại sử dụng each() mà chưa kịp
+		+ *npm run watch* ( rồi ngồi ngắm project :D )
+	- Bộ tải ngoài hàng net như sau: ***laragon, git, composer, node, sublime-text-v6.***
+
 
 
 ## About Laravel
